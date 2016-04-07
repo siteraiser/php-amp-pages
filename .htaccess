@@ -1,0 +1,8 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /amp
+
+
+
+RewriteCond $1 !^(index\.php|webfonts|images)
+RewriteRule ^(.*)$ /amp/index.php/$1 [L]
