@@ -37,7 +37,7 @@ class Amp {
 			$user = $stmt->fetch();
 		}
 			
-		//Store user in session, redirect...
+	
 		if($user){
 			if($prop == 'username'){
 				return $user['username'];		
