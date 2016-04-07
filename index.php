@@ -284,7 +284,7 @@ $html=$doc->saveHTML();
 
 
 function minify( $css, $comments ){
-/* minify css function from sitepoint.com */
+/* minify css function from http://www.sitepoint.com/create-laravel-css-minify-command/ */
     // Normalize whitespace
     $css = preg_replace( '/\s+/', ' ', $css );
  
